@@ -158,6 +158,11 @@ DISHCARE_ENTITY_DESCRIPTIONS: _EntityDescriptionsDefinitionsType = {
             entity_registry_enabled_default=False,
         ),
         HCSwitchEntityDescription(
+            key="switch_crystal_dry",
+            entity="Dishcare.Dishwasher.Option.ZeoliteDry",
+            device_class=SwitchDeviceClass.SWITCH,
+        ),
+        HCSwitchEntityDescription(
             key="switch_half_load",
             entity="Dishcare.Dishwasher.Option.HalfLoad",
             device_class=SwitchDeviceClass.SWITCH,
